@@ -247,7 +247,6 @@ body {
 
   position: relative;
   width: 100%;
-  padding: 0 200px;
   background: url(images/Untitled\ design\(10\).png);
   background-attachment: fixed;
   text-align: center;
@@ -271,8 +270,9 @@ header{
   padding-top: 30px;
 }
 .navbar {
-
+  width: 80%;
   height: 80px;
+
   padding: 7px 30px 0 30px;
   margin: 0 auto 0 auto;
   background: #000000;
@@ -312,7 +312,7 @@ header{
   color: #ffffff;
   padding: 10px;
   background-color: #e41a1768;
-  border-radius: 14px;
+  border-radius: 16px;
 }
 #download-btn{
    font-size: 20px;
@@ -340,6 +340,8 @@ header{
   border-radius: 5px;
 }
 #hero-section{
+  width: 80%;
+  margin: auto;
   padding: 80px 0;
   margin-top: 80px;
   background: #000000;
