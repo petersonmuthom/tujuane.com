@@ -4,7 +4,14 @@
   box-sizing: border-box;
   font-family: "Elms Sans", sans-serif;
 }
-
+::selection {
+  background-color: #e41a1746;
+  color: #c5bbbb;
+}
+::-moz-selection {  
+  background-color: #e41a1747;
+  color: #c5bbbb;
+}
 
 
 
@@ -270,12 +277,27 @@ header{
   padding-top: 30px;
 }
 .navbar {
+
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+
+  background: #000000;
+
+  position: relative;
+  width: 100%;
+  background: url(images/Untitled\ design\(10\).png);
+  background-attachment: fixed;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+
   width: 80%;
   height: 80px;
 
   padding: 7px 30px 0 30px;
   margin: 0 auto 0 auto;
-  background: #000000;
+  background: #000000b7;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -344,7 +366,7 @@ header{
   margin: auto;
   padding: 80px 0;
   margin-top: 80px;
-  background: #000000;
+  background: #000000b4;
   color: #fff;
   border: 1px solid #1a1818c2;
   border-radius: 20px;
@@ -361,6 +383,16 @@ header{
   font-size: 40px;
   font-weight: 500;
   color: #c5bbbb;;
+}
+.cta-section{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+  margin-top: 80px;
+  background: #000000b4;
+  color: #fff;
+  border: 1px solid #1a1818c2;
+  border-radius: 20px;
 }
 /* Mobile */
 @media (max-width: 768px) {
