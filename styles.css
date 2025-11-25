@@ -384,7 +384,7 @@ header{
   font-weight: 500;
   color: #c5bbbb;;
 }
-.cta-section{
+#cta-section{
   width: 80%;
   margin: auto;
   padding: 80px 0;
@@ -393,6 +393,13 @@ header{
   color: #fff;
   border: 1px solid #1a1818c2;
   border-radius: 20px;
+}
+.cta-img{
+ 
+}
+.cta-img img{
+  height: 800px;
+  width: 800px;
 }
 /* Mobile */
 @media (max-width: 768px) {
