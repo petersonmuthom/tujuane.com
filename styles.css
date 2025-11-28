@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Elms Sans", sans-serif;
-  scrollbar-color: #e41a1721 #000000;
+  scrollbar-color: #1a1818c2 #000000;
   scroll-behavior: smooth;
 }
 ::selection {

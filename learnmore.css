@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Elms Sans", sans-serif;
-  scrollbar-color: #e41a1721 #000000;
+  scrollbar-color: #1a1818c2 #000000;
   scroll-behavior: smooth;
 }
 ::selection {
@@ -14,13 +14,7 @@
   background-color: #e41a1747;
   color: #c5bbbb;
 }
-
-
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap");
-
 :root {
   --shiny-cta-bg: #000000;
   --shiny-cta-bg-subtle: #1a1818;
@@ -28,19 +22,16 @@
   --shiny-cta-highlight: #e41a17;
   --shiny-cta-highlight-subtle: #e41a17a0;
 }
-
 @property --gradient-angle {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
 }
-
 @property --gradient-angle-offset {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
 }
-
 @property --gradient-percent {
   syntax: "<percentage>";
   initial-value: 5%;
@@ -282,9 +273,7 @@ header{
 
   font-optical-sizing: auto;
   -webkit-font-smoothing: antialiased;
-
   background: #000000;
-
   position: relative;
   width: 100%;
   background: url(images/Untitled\ design\(10\).png);
@@ -293,10 +282,8 @@ header{
   background-size: cover;
   background-position: center;
   align-items: center;
-
   width: 80%;
   height: 80px;
-
   padding: 7px 30px 0 30px;
   margin: 0 auto 0 auto;
   background: #000000b7;
@@ -330,7 +317,6 @@ header{
   font-family: "Elms Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-
 }
 .nav-links li a:hover {
   color: #ffffff;
@@ -339,7 +325,7 @@ header{
   border-radius: 16px;
 }
 #download-btn{
-   font-size: 20px;
+  font-size: 20px;
   font-weight: 700;
   text-decoration: none;
   color: #e0e0e0;
@@ -378,7 +364,7 @@ header{
   margin-top: -20px;
   text-align: center;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   color: #e41a17;
 }
 #hero-section p {
