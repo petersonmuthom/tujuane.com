@@ -352,7 +352,7 @@ header{
 #hero-section{
   width: 80%;
   margin: auto;
-  padding: 70px 0;
+  padding: 70px 30px;
   margin-top: 80px;
   background: #000000b4;
   box-shadow: rgba(0, 0, 0, 0.755);
@@ -370,14 +370,15 @@ header{
 .hero-section-img{
     justify-content: center;
     align-content: center;
-    margin: auto;
+    margin: 40px auto;
     height: 300px;
-    width: 400px;
+    width: 490px;
 }
 .hero-section-img img{
+    border-radius: 20px;
     margin: auto;
     height: 300px;
-    width: 400px;
+    width: 490px;
 }
 #hero-section p {
   padding: 0 40px 40px 40px;
